@@ -1,7 +1,7 @@
 import hello
 
 ret = hello.hello_world()
-print(ret)
+assert ret == "hello world"
 
 ret = hello.greet("fredrik")
-print(ret)
+assert ret == "hello FREDRIK"
