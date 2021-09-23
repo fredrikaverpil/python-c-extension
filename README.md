@@ -9,6 +9,7 @@
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Build and install
@@ -20,5 +21,5 @@ pip install .
 # Run
 
 ```bash
-python tests.py
+pytest tests.py
 ```
