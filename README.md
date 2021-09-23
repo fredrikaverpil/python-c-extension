@@ -3,8 +3,6 @@
 ## Prerequisites
 
 ```bash
-sudo apt-get install gcc python3-dev libpython3-dev
-
 python3 -m venv .venv
 . .venv/bin/activate
 ```
