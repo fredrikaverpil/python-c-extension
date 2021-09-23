@@ -1,6 +1,7 @@
 # python c extension
 
-Based on https://github.com/anthonywritescode/explains/tree/master/sample_code/ep134
+- Python C API: https://docs.python.org/3/c-api
+- Based on https://github.com/anthonywritescode/explains/tree/master/sample_code/ep134
 
 ## Prerequisites
 
