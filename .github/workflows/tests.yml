@@ -29,17 +29,10 @@ jobs:
 
     - name: Upgrade pip
       run: |
+        ${{ matrix.activate_cmd }}
         python -m pip install --upgrade pip
 
-    - name: Load cached venv
-      id: cached-poetry-dependencies
-      uses: actions/cache@v2
-      with:
-        path: .venv
-        key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
-
     - name: Build and install
-      if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
       run: |
         ${{ matrix.activate_cmd }}
         pip install .
