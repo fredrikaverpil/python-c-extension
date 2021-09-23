@@ -6,6 +6,11 @@
 
 ## Prerequisites
 
+- gcc
+- python3-dev, libpython3-dev (not sure about these actually...)
+
+## Setup
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
