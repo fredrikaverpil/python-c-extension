@@ -1,5 +1,7 @@
 # python c extension
 
+Based on https://github.com/anthonywritescode/explains/tree/master/sample_code/ep134
+
 ## Prerequisites
 
 ```bash
