@@ -3,7 +3,7 @@
 ## Prerequisites
 
 ```bash
-sudo apt-get install gcc python3-dev
+sudo apt-get install gcc python3-dev libpython3-dev
 
 python3 -m venv .venv
 . .venv/bin/activate
@@ -17,8 +17,6 @@ pip install .
 
 # Run
 
-```python
-import hello
-hello.hello_world()
->>> 'Hello, world!'
+```bash
+python tests.py
 ```
