@@ -34,7 +34,7 @@ static struct PyMethodDef methods[] = {
 
     // method name, function pointer (cast to PyCFunction), flags
     {"hello_world", (PyCFunction)_hello_world, METH_NOARGS},
-    {"greet", (PyCFunction)_greet, METH_NOARGS},
+    {"greet", (PyCFunction)_greet, METH_VARARGS},
     {NULL, NULL} // null terminated array
 };
 
