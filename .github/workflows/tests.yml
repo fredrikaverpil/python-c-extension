@@ -36,7 +36,7 @@ jobs:
     - name: Build and install
       run: |
         ${{ matrix.activate_cmd }}
-        pip install .
+        pip install . --verbose
 
     - name: Tests
       run: |
